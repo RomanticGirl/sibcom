@@ -1,0 +1,172 @@
+/* src/index.css */
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-yellow: #FFD700;
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Пример использования желтого цвета */
+button {
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #FDBA00; /* Слегка темнее желтый при наведении */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Дополнительные стили для About */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 3rem 1rem;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+}
+
+/* src/index.css */
+.card {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Автоматическая высота */
+  object-fit: cover;
+}
+
+.card .content {
+  padding: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Блок поиска и фильтра */
+.filter-panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-bottom: 4rem; /* Увеличенный отступ снизу */
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-panel h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.filter-panel input,
+.filter-panel select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.filter-panel select {
+  cursor: pointer;
+}
+
+.filter-panel .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Карточки товаров */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.product-card .content {
+  padding: 1rem;
+}
+
+.product-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
