@@ -26,13 +26,13 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/sibcom/" element={<Home />} />
-        <Route path="/sibcom/about" element={<About />} />
-        <Route path="/sibcom/products" element={<Products />} />
-        <Route path="/sibcom/achievements" element={<Achievements />} />
-        <Route path="/sibcom/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/services" element={<Services />} />
         { /* <Route path="/projects" element={<Projects />} /> */}
-        <Route path="/sibcom/contacts" element={<Contacts />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
     </Router>
