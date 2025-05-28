@@ -21,13 +21,13 @@ const Header = () => {
 
       {/* Меню */}
       <nav>
-        <a href="/" style={{ color: '#fff', margin: '0 1rem' }}>Главная</a>
-        <a href="/about" style={{ color: '#fff', margin: '0 1rem' }}>О компании</a>
-        <a href="/services" style={{ color: '#fff', margin: '0 1rem' }}>Услуги</a>
-        <a href="/products" style={{ color: '#fff', margin: '0 1rem' }}>Продукция</a>
-        <a href="/projects" style={{ color: '#fff', margin: '0 1rem' }}>Проекты</a>
-        <a href="/achievements" style={{ color: '#fff', margin: '0 1rem' }}>Достижения</a>
-        <a href="/contacts" style={{ color: '#fff', margin: '0 1rem' }}>Контакты</a>
+        <a href="/sibcom/" style={{ color: '#fff', margin: '0 1rem' }}>Главная</a>
+        <a href="/sibcom/about" style={{ color: '#fff', margin: '0 1rem' }}>О компании</a>
+        <a href="/sibcom/services" style={{ color: '#fff', margin: '0 1rem' }}>Услуги</a>
+        <a href="/sibcom/products" style={{ color: '#fff', margin: '0 1rem' }}>Продукция</a>
+        <a href="/sibcom/projects" style={{ color: '#fff', margin: '0 1rem' }}>Проекты</a>
+        <a href="/sibcom/achievements" style={{ color: '#fff', margin: '0 1rem' }}>Достижения</a>
+        <a href="/sibcom/contacts" style={{ color: '#fff', margin: '0 1rem' }}>Контакты</a>
       </nav>
     </header>
   );

@@ -12,18 +12,27 @@ import Products from './pages/Products';
 import Contacts from './pages/Contacts';
 import Achievements from './pages/Achievements';
 
+// const routes = [
+//   { path"/", element: {<Home />} },
+//   { path: '/game', Component: GamePage, title: 'Game Page' },
+//   { path: '/quest', Component: QuestPage, title: 'Quest Page' },
+//   { path: '/shop', Component: ShopPage, title: 'Shop Page' },
+//   { path: '/empty', Component: GamePage, title: 'Empty Page' }
+// ];
+
+
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/sibcom/" element={<Home />} />
+        <Route path="/sibcom/about" element={<About />} />
+        <Route path="/sibcom/products" element={<Products />} />
+        <Route path="/sibcom/achievements" element={<Achievements />} />
+        <Route path="/sibcom/services" element={<Services />} />
         { /* <Route path="/projects" element={<Projects />} /> */}
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/sibcom/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
     </Router>
