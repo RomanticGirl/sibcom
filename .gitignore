@@ -1,0 +1,43 @@
+# VCS files
+.git
+.hg
+.svn
+
+# Dependency directories
+/node_modules/
+/bower_components/
+
+# Build artifacts
+/dist/
+/out/
+/build/
+/coverage/
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlitedb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/temp/
+/tmp/
